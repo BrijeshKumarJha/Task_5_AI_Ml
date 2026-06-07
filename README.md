@@ -1,4 +1,4 @@
-# 🐉 Pokemon Legendary Predictor: Tree-Based Models
+# ![Pikachu](pikachu.png) Pokemon Legendary Predictor: Tree-Based Models
 
 ## 📌 Project Overview
 This project implements Machine Learning classification pipelines using **Decision Trees** and **Random Forests** to predict whether a Pokémon is 'Legendary' (1) or 'Normal' (0) based purely on its combat base stats (HP, Attack, Defense, Speed, etc.). 
