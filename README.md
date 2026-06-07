@@ -1,17 +1,17 @@
 # ![Pikachu](pikachu.png) Pokemon Legendary Predictor: Tree-Based Models
 
-## 📌 Project Overview
+##  Project Overview
 This project implements Machine Learning classification pipelines using **Decision Trees** and **Random Forests** to predict whether a Pokémon is 'Legendary' (1) or 'Normal' (0) based purely on its combat base stats (HP, Attack, Defense, Speed, etc.). 
 
 Through this project, I practically explored the mechanics of tree-based models, visualized decision-making rules, tackled the problem of **Overfitting**, and utilized **Ensemble Learning (Bagging)** via Random Forests to achieve a stable, highly accurate prediction model.
 
-## 🛠️ Technologies & Libraries Used
+##  Technologies & Libraries Used
 * **Python 3.x**
 * **Pandas:** Data manipulation and feature selection
 * **Scikit-Learn (sklearn):** `DecisionTreeClassifier`, `RandomForestClassifier`, `cross_val_score` for K-Fold Cross Validation, and tree visualization tools.
 * **Matplotlib & Seaborn:** Generating tree plots and feature importance bar charts.
 
-## 🚀 Pipeline Steps & Key Insights
+##  Pipeline Steps & Key Insights
 
 ### 1. Decision Tree Visualization
 I trained an initial Decision Tree classifier and visualized its internal logic. The model acts like a flowchart, splitting data based on conditions like `base_total <= 580`. This makes the model highly interpretable, showing exactly how decisions are made at each node while tracking Gini impurity.
